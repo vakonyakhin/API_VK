@@ -3,7 +3,6 @@ from urllib.parse import urlparse, unquote
 import os
 from random import randint
 
-
 from dotenv import load_dotenv
 
 
@@ -64,7 +63,6 @@ def get_upload_url(token, id):
     responce = requests.get(url, params=params)
     responce.raise_for_status()
     upload_url = responce.json()['response']['upload_url']
-
     return upload_url
 
 
