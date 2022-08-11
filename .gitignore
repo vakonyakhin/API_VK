@@ -7,6 +7,16 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+*.exe
+*.xml
+*.bat
+*.iml
+*.ps1
+*.cfg
+Include/
+Lib/
+.idea
+Scripts/
 .Python
 build/
 develop-eggs/
